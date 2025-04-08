@@ -132,7 +132,7 @@ padding: 2rem;
     border-radius: 50px;   
 }
 .productos img:hover{
-    filter: grayscale(100%) sepia(50%);();
+    filter: brightness(1.5)
 }
 .productos2{
     display: flex;
