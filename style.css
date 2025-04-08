@@ -90,7 +90,6 @@ img{
 .galeria img{
     width: 200px;
     border-radius: 20px;
-
 }
 .dos{
     width: 50%;
@@ -123,4 +122,26 @@ padding: 2rem;
 }
 .imagen img:hover{
     filter: sepia();
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos img{
+    width: 400px;
+    border-radius: 50px;   
+}
+.productos img:hover{
+    filter: grayscale(100%) sepia(50%);();
+}
+.productos2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos2 img{
+    width: 400px;
+    border-radius: 20px;
+}
+.productos2 img:hover{
+    filter: brightness(1.5)
 }
